@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "gmanlib", "Win32Project1\Win32Project1.vcxproj", "{F431437C-302A-4D46-A3F4-4947FCE4A5D3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{70976C92-8E48-47C7-A71D-ACD21EF01AA3} = {70976C92-8E48-47C7-A71D-ACD21EF01AA3}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AccidentalNoise", "AccidentalNoise\AccidentalNoise.vcxproj", "{70976C92-8E48-47C7-A71D-ACD21EF01AA3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F431437C-302A-4D46-A3F4-4947FCE4A5D3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F431437C-302A-4D46-A3F4-4947FCE4A5D3}.Debug|Win32.Build.0 = Debug|Win32
+		{F431437C-302A-4D46-A3F4-4947FCE4A5D3}.Release|Win32.ActiveCfg = Release|Win32
+		{F431437C-302A-4D46-A3F4-4947FCE4A5D3}.Release|Win32.Build.0 = Release|Win32
+		{70976C92-8E48-47C7-A71D-ACD21EF01AA3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{70976C92-8E48-47C7-A71D-ACD21EF01AA3}.Debug|Win32.Build.0 = Debug|Win32
+		{70976C92-8E48-47C7-A71D-ACD21EF01AA3}.Release|Win32.ActiveCfg = Release|Win32
+		{70976C92-8E48-47C7-A71D-ACD21EF01AA3}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

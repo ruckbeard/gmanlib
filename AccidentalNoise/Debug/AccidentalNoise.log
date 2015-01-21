@@ -1,0 +1,165 @@
+﻿Build started 8/5/2014 9:03:59 PM.
+     1>Project "C:\Users\Chum\Documents\Visual Studio 2013\Projects\gmanlib\AccidentalNoise\AccidentalNoise.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ACCIDENTALNOISE_EXPORTS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt arrayoperations.cpp cellulargen.cpp hsv.cpp implicitautocorrect.cpp implicitbasisfunction.cpp implicitbias.cpp implicitblend.cpp implicitbrightcontrast.cpp implicitcache.cpp implicitcellular.cpp implicitclamp.cpp implicitcombiner.cpp implicitconstant.cpp implicitcos.cpp implicitcurve.cpp implicitextractrgbachannel.cpp implicitfloor.cpp implicitfractal.cpp implicitfunctiongradient.cpp implicitgain.cpp implicitgradient.cpp implicitmagnitude.cpp implicitmodulebase.cpp implicitnormalizecoords.cpp implicitpow.cpp implicitrgbadotproduct.cpp implicitrotatedomain.cpp implicitsawtooth.cpp implicitscaledomain.cpp implicitscaleoffset.cpp implicitselect.cpp implicitsin.cpp implicitsphere.cpp implicittiers.cpp implicittranslatedomain.cpp implicittriangle.cpp accidental_noise.cpp lodepng.cpp mapping.cpp noise_gen.cpp noise_lut.cpp rasterization.cpp rgbablend.cpp rgbablendops.cpp rgbacolorops.cpp rgbacomposechannels.cpp rgbaconstant.cpp rgbacurve.cpp rgbahsvtorgba.cpp rgbaimplicitgrayscale.cpp rgbanormalize.cpp rgbargbatohsv.cpp rgbarotatecolor.cpp rgbaselect.cpp
+         rgbaselect.cpp
+         rgbarotatecolor.cpp
+         rgbargbatohsv.cpp
+         rgbanormalize.cpp
+         rgbaimplicitgrayscale.cpp
+         rgbahsvtorgba.cpp
+         rgbacurve.cpp
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\templates\tvec4d.h(104): warning C4244: 'argument' : conversion from 'const double' to 'const float', possible loss of data
+                 c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\templates\tvec4d.h(103) : while compiling class template member function 'TVec4D<float> TVec4D<float>::operator *(const double &) const'
+                 c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\templates\tcurve.h(75) : see reference to function template instantiation 'TVec4D<float> TVec4D<float>::operator *(const double &) const' being compiled
+                 c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rgbamodulebase.h(65) : see reference to class template instantiation 'TVec4D<float>' being compiled
+         rgbaconstant.cpp
+         rgbacomposechannels.cpp
+         rgbacolorops.cpp
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rgbacolorops.cpp(65): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rgbacolorops.cpp(74): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rgbacolorops.cpp(83): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+         rgbablendops.cpp
+         rgbablend.cpp
+         rasterization.cpp
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rasterization.cpp(8): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rasterization.cpp(23): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rasterization.cpp(38): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rasterization.cpp(41): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rasterization.cpp(44): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rasterization.cpp(45): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rasterization.cpp(48): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rasterization.cpp(50): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rasterization.cpp(63): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rasterization.cpp(66): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rasterization.cpp(69): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rasterization.cpp(70): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rasterization.cpp(73): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rasterization.cpp(75): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rasterization.cpp(100): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\rasterization.cpp(129): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+         noise_lut.cpp
+         noise_gen.cpp
+         mapping.cpp
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\mapping.cpp(783): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\mapping.cpp(784): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\mapping.cpp(787): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\mapping.cpp(788): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\mapping.cpp(789): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\mapping.cpp(790): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\templates\tarrays.h(354): warning C4018: '>=' : signed/unsigned mismatch
+                 c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\templates\tarrays.h(353) : while compiling class template member function 'anl::SRGBA anl::TArray2D<anl::SRGBA>::get(unsigned int,unsigned int)'
+                 c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\mapping.cpp(786) : see reference to function template instantiation 'anl::SRGBA anl::TArray2D<anl::SRGBA>::get(unsigned int,unsigned int)' being compiled
+                 c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\mapping.cpp(341) : see reference to class template instantiation 'anl::TArray2D<anl::SRGBA>' being compiled
+         lodepng.cpp
+         accidental_noise.cpp
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\accidental_noise.cpp(21): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\accidental_noise.cpp(24): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\accidental_noise.cpp(129): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\accidental_noise.cpp(161): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\accidental_noise.cpp(163): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\accidental_noise.cpp(237): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\accidental_noise.cpp(238): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+         implicittriangle.cpp
+         implicittranslatedomain.cpp
+         Generating Code...
+         Compiling...
+         implicittiers.cpp
+         implicitsphere.cpp
+         implicitsin.cpp
+         implicitselect.cpp
+         implicitscaleoffset.cpp
+         implicitscaledomain.cpp
+         implicitsawtooth.cpp
+         implicitrotatedomain.cpp
+         implicitrgbadotproduct.cpp
+         implicitpow.cpp
+         implicitnormalizecoords.cpp
+         implicitmodulebase.cpp
+         implicitmagnitude.cpp
+         implicitgradient.cpp
+         implicitgain.cpp
+         implicitfunctiongradient.cpp
+         implicitfractal.cpp
+         implicitfloor.cpp
+         implicitextractrgbachannel.cpp
+         implicitcurve.cpp
+         Generating Code...
+         Compiling...
+         implicitcos.cpp
+         implicitconstant.cpp
+         implicitcombiner.cpp
+         implicitclamp.cpp
+         implicitcellular.cpp
+         implicitcache.cpp
+         implicitbrightcontrast.cpp
+         implicitblend.cpp
+         implicitbias.cpp
+         implicitbasisfunction.cpp
+         implicitautocorrect.cpp
+         hsv.cpp
+         cellulargen.cpp
+         arrayoperations.cpp
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\arrayoperations.cpp(136): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+         Generating Code...
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"c:\users\chum\documents\visual studio 2013\Projects\ANLWindows\Debug\AccidentalNoise.lib" /NOLOGO Debug\arrayoperations.obj
+         Debug\cellulargen.obj
+         Debug\hsv.obj
+         Debug\implicitautocorrect.obj
+         Debug\implicitbasisfunction.obj
+         Debug\implicitbias.obj
+         Debug\implicitblend.obj
+         Debug\implicitbrightcontrast.obj
+         Debug\implicitcache.obj
+         Debug\implicitcellular.obj
+         Debug\implicitclamp.obj
+         Debug\implicitcombiner.obj
+         Debug\implicitconstant.obj
+         Debug\implicitcos.obj
+         Debug\implicitcurve.obj
+         Debug\implicitextractrgbachannel.obj
+         Debug\implicitfloor.obj
+         Debug\implicitfractal.obj
+         Debug\implicitfunctiongradient.obj
+         Debug\implicitgain.obj
+         Debug\implicitgradient.obj
+         Debug\implicitmagnitude.obj
+         Debug\implicitmodulebase.obj
+         Debug\implicitnormalizecoords.obj
+         Debug\implicitpow.obj
+         Debug\implicitrgbadotproduct.obj
+         Debug\implicitrotatedomain.obj
+         Debug\implicitsawtooth.obj
+         Debug\implicitscaledomain.obj
+         Debug\implicitscaleoffset.obj
+         Debug\implicitselect.obj
+         Debug\implicitsin.obj
+         Debug\implicitsphere.obj
+         Debug\implicittiers.obj
+         Debug\implicittranslatedomain.obj
+         Debug\implicittriangle.obj
+         Debug\accidental_noise.obj
+         Debug\lodepng.obj
+         Debug\mapping.obj
+         Debug\noise_gen.obj
+         Debug\noise_lut.obj
+         Debug\rasterization.obj
+         Debug\rgbablend.obj
+         Debug\rgbablendops.obj
+         Debug\rgbacolorops.obj
+         Debug\rgbacomposechannels.obj
+         Debug\rgbaconstant.obj
+         Debug\rgbacurve.obj
+         Debug\rgbahsvtorgba.obj
+         Debug\rgbaimplicitgrayscale.obj
+         Debug\rgbanormalize.obj
+         Debug\rgbargbatohsv.obj
+         Debug\rgbarotatecolor.obj
+         Debug\rgbaselect.obj
+         AccidentalNoise.vcxproj -> c:\users\chum\documents\visual studio 2013\Projects\ANLWindows\Debug\AccidentalNoise.lib
+     1>Done Building Project "C:\Users\Chum\Documents\Visual Studio 2013\Projects\gmanlib\AccidentalNoise\AccidentalNoise.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.16

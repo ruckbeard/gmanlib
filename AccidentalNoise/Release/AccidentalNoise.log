@@ -1,0 +1,77 @@
+﻿Build started 8/8/2014 3:33:18 PM.
+     1>Project "C:\Users\Chum\Documents\Visual Studio 2013\Projects\gmanlib\AccidentalNoise\AccidentalNoise.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(357,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Chum\Documents\Visual Studio 2013\Projects\gmanlib\Win32Project1" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D ACCIDENTALNOISE_EXPORTS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt mapping.cpp
+         mapping.cpp
+     1>mapping.cpp(783): warning C4018: '<' : signed/unsigned mismatch
+     1>mapping.cpp(784): warning C4018: '<' : signed/unsigned mismatch
+     1>mapping.cpp(787): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>mapping.cpp(788): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>mapping.cpp(789): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>mapping.cpp(790): warning C4244: '=' : conversion from 'float' to 'unsigned char', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\templates/tarrays.h(354): warning C4018: '>=' : signed/unsigned mismatch
+                 c:\users\chum\documents\visual studio 2013\projects\gmanlib\accidentalnoise\templates/tarrays.h(353) : while compiling class template member function 'anl::SRGBA anl::TArray2D<anl::SRGBA>::get(unsigned int,unsigned int)'
+                 mapping.cpp(786) : see reference to function template instantiation 'anl::SRGBA anl::TArray2D<anl::SRGBA>::get(unsigned int,unsigned int)' being compiled
+                 mapping.cpp(341) : see reference to class template instantiation 'anl::TArray2D<anl::SRGBA>' being compiled
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\Lib.exe /OUT:"..\Win32Project1\AccidentalNoise.lib" /NOLOGO /LTCG Release\arrayoperations.obj
+         Release\cellulargen.obj
+         Release\hsv.obj
+         Release\implicitautocorrect.obj
+         Release\implicitbasisfunction.obj
+         Release\implicitbias.obj
+         Release\implicitblend.obj
+         Release\implicitbrightcontrast.obj
+         Release\implicitcache.obj
+         Release\implicitcellular.obj
+         Release\implicitclamp.obj
+         Release\implicitcombiner.obj
+         Release\implicitconstant.obj
+         Release\implicitcos.obj
+         Release\implicitcurve.obj
+         Release\implicitextractrgbachannel.obj
+         Release\implicitfloor.obj
+         Release\implicitfractal.obj
+         Release\implicitfunctiongradient.obj
+         Release\implicitgain.obj
+         Release\implicitgradient.obj
+         Release\implicitmagnitude.obj
+         Release\implicitmodulebase.obj
+         Release\implicitnormalizecoords.obj
+         Release\implicitpow.obj
+         Release\implicitrgbadotproduct.obj
+         Release\implicitrotatedomain.obj
+         Release\implicitsawtooth.obj
+         Release\implicitscaledomain.obj
+         Release\implicitscaleoffset.obj
+         Release\implicitselect.obj
+         Release\implicitsin.obj
+         Release\implicitsphere.obj
+         Release\implicittiers.obj
+         Release\implicittranslatedomain.obj
+         Release\implicittriangle.obj
+         Release\accidental_noise.obj
+         Release\lodepng.obj
+         Release\mapping.obj
+         Release\noise_gen.obj
+         Release\noise_lut.obj
+         Release\rasterization.obj
+         Release\rgbablend.obj
+         Release\rgbablendops.obj
+         Release\rgbacolorops.obj
+         Release\rgbacomposechannels.obj
+         Release\rgbaconstant.obj
+         Release\rgbacurve.obj
+         Release\rgbahsvtorgba.obj
+         Release\rgbaimplicitgrayscale.obj
+         Release\rgbanormalize.obj
+         Release\rgbargbatohsv.obj
+         Release\rgbarotatecolor.obj
+         Release\rgbaselect.obj
+         AccidentalNoise.vcxproj -> C:\Users\Chum\Documents\Visual Studio 2013\Projects\gmanlib\AccidentalNoise\..\Win32Project1\AccidentalNoise.lib
+     1>Done Building Project "C:\Users\Chum\Documents\Visual Studio 2013\Projects\gmanlib\AccidentalNoise\AccidentalNoise.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.31

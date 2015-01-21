@@ -1,0 +1,130 @@
+﻿Build started 8/3/2014 9:18:40 PM.
+     1>Project "c:\Users\Chum\documents\visual studio 2013\Projects\gmanlib\Win32Project1\Win32Project1.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(381,5): warning MSB8028: The intermediate directory (Debug\) contains files shared from another project (Win32Project1.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D WIN32PROJECT1_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt cellulargen.cpp hsv.cpp implicitautocorrect.cpp implicitbasisfunction.cpp implicitbias.cpp implicitblend.cpp implicitbrightcontrast.cpp implicitcache.cpp implicitcellular.cpp implicitclamp.cpp implicitcombiner.cpp implicitconstant.cpp implicitcos.cpp implicitcurve.cpp implicitextractrgbachannel.cpp implicitfloor.cpp implicitfractal.cpp implicitfunctiongradient.cpp implicitgain.cpp implicitgradient.cpp implicitmagnitude.cpp implicitmodulebase.cpp implicitnormalizecoords.cpp implicitpow.cpp implicitrgbadotproduct.cpp implicitrotatedomain.cpp implicitsawtooth.cpp implicitscaledomain.cpp implicitscaleoffset.cpp implicitselect.cpp implicitsin.cpp implicitsphere.cpp implicittiers.cpp implicittranslatedomain.cpp implicittriangle.cpp main.cpp noise_gen.cpp noise_lut.cpp rgbablend.cpp rgbablendops.cpp rgbacolorops.cpp rgbacomposechannels.cpp rgbaconstant.cpp rgbacurve.cpp rgbahsvtorgba.cpp rgbaimplicitgrayscale.cpp rgbanormalize.cpp rgbargbatohsv.cpp rgbarotatecolor.cpp rgbaselect.cpp
+         main.cpp
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\win32project1\main.cpp(265): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\win32project1\main.cpp(267): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\win32project1\main.cpp(287): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\win32project1\main.cpp(289): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\win32project1\main.cpp(309): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\win32project1\main.cpp(311): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\win32project1\main.cpp(331): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\win32project1\main.cpp(333): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\win32project1\main.cpp(373): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\win32project1\main.cpp(375): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\win32project1\main.cpp(378): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\win32project1\main.cpp(382): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\chum\documents\visual studio 2013\projects\gmanlib\win32project1\main.cpp(384): warning C4244: 'argument' : conversion from 'double' to 'unsigned int', possible loss of data
+         Generating Code...
+         Skipping... (no relevant changes detected)
+         rgbaselect.cpp
+         rgbarotatecolor.cpp
+         rgbargbatohsv.cpp
+         rgbanormalize.cpp
+         rgbaimplicitgrayscale.cpp
+         rgbahsvtorgba.cpp
+         rgbacurve.cpp
+         rgbaconstant.cpp
+         rgbacomposechannels.cpp
+         rgbacolorops.cpp
+         rgbablendops.cpp
+         rgbablend.cpp
+         noise_lut.cpp
+         noise_gen.cpp
+         implicittriangle.cpp
+         implicittranslatedomain.cpp
+         implicittiers.cpp
+         implicitsphere.cpp
+         implicitsin.cpp
+         implicitselect.cpp
+         implicitscaleoffset.cpp
+         implicitscaledomain.cpp
+         implicitsawtooth.cpp
+         implicitrotatedomain.cpp
+         implicitrgbadotproduct.cpp
+         implicitpow.cpp
+         implicitnormalizecoords.cpp
+         implicitmodulebase.cpp
+         implicitmagnitude.cpp
+         implicitgradient.cpp
+         implicitgain.cpp
+         implicitfunctiongradient.cpp
+         implicitfractal.cpp
+         implicitfloor.cpp
+         implicitextractrgbachannel.cpp
+         implicitcurve.cpp
+         implicitcos.cpp
+         implicitconstant.cpp
+         implicitcombiner.cpp
+         implicitclamp.cpp
+         implicitcellular.cpp
+         implicitcache.cpp
+         implicitbrightcontrast.cpp
+         implicitblend.cpp
+         implicitbias.cpp
+         implicitbasisfunction.cpp
+         implicitautocorrect.cpp
+         hsv.cpp
+         cellulargen.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\chum\documents\visual studio 2013\Projects\gmanlib\Debug\gmanlib.dll" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\chum\documents\visual studio 2013\Projects\gmanlib\Debug\gmanlib.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\chum\documents\visual studio 2013\Projects\gmanlib\Debug\gmanlib.lib" /MACHINE:X86 /DLL Debug\arrayoperations.obj
+         Debug\cellulargen.obj
+         Debug\hsv.obj
+         Debug\implicitautocorrect.obj
+         Debug\implicitbasisfunction.obj
+         Debug\implicitbias.obj
+         Debug\implicitblend.obj
+         Debug\implicitbrightcontrast.obj
+         Debug\implicitcache.obj
+         Debug\implicitcellular.obj
+         Debug\implicitclamp.obj
+         Debug\implicitcombiner.obj
+         Debug\implicitconstant.obj
+         Debug\implicitcos.obj
+         Debug\implicitcurve.obj
+         Debug\implicitextractrgbachannel.obj
+         Debug\implicitfloor.obj
+         Debug\implicitfractal.obj
+         Debug\implicitfunctiongradient.obj
+         Debug\implicitgain.obj
+         Debug\implicitgradient.obj
+         Debug\implicitmagnitude.obj
+         Debug\implicitmodulebase.obj
+         Debug\implicitnormalizecoords.obj
+         Debug\implicitpow.obj
+         Debug\implicitrgbadotproduct.obj
+         Debug\implicitrotatedomain.obj
+         Debug\implicitsawtooth.obj
+         Debug\implicitscaledomain.obj
+         Debug\implicitscaleoffset.obj
+         Debug\implicitselect.obj
+         Debug\implicitsin.obj
+         Debug\implicitsphere.obj
+         Debug\implicittiers.obj
+         Debug\implicittranslatedomain.obj
+         Debug\implicittriangle.obj
+         Debug\main.obj
+         Debug\mapping.obj
+         Debug\noise_gen.obj
+         Debug\noise_lut.obj
+         Debug\rasterization.obj
+         Debug\rgbablend.obj
+         Debug\rgbablendops.obj
+         Debug\rgbacolorops.obj
+         Debug\rgbacomposechannels.obj
+         Debug\rgbaconstant.obj
+         Debug\rgbacurve.obj
+         Debug\rgbahsvtorgba.obj
+         Debug\rgbaimplicitgrayscale.obj
+         Debug\rgbanormalize.obj
+         Debug\rgbargbatohsv.obj
+         Debug\rgbarotatecolor.obj
+         Debug\rgbaselect.obj
+         Win32Project1.vcxproj -> c:\users\chum\documents\visual studio 2013\Projects\gmanlib\Debug\gmanlib.dll
+     1>Done Building Project "c:\Users\Chum\documents\visual studio 2013\Projects\gmanlib\Win32Project1\Win32Project1.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.25
